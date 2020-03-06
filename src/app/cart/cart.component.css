@@ -1,0 +1,24 @@
+.sample{
+    height : 150px;
+    background-color: #505763;
+    background:  linear-gradient(rgb(46, 55, 68),rgb(52, 60, 73),rgb(58, 67, 83));
+    color: #fff;
+    line-height: 1.43;
+}
+ .toBorder{
+    position: relative;
+    width:700px;
+    height:100%;
+    box-sizing: border-box;
+    margin-left: 400px;
+} 
+ img{
+    width: 100px;
+    height: 100px;
+} 
+
+.abs{
+    position: absolute;
+    left: 1150px;
+    top: 250px;
+}

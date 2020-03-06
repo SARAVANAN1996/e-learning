@@ -1,0 +1,19 @@
+.sample{
+position: relative;
+height : 300px;
+background-color: #505763;
+background: linear-gradient(#29303B,#29303B,#29303B);
+color: #fff;
+line-height: 1.43;
+}
+
+.inside {
+    width: 600px;
+    height: 200px;
+    box-sizing: border-box;
+} 
+.sample1{
+    position:absolute;
+    left: 55%;
+    top: 20%;
+}

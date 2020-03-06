@@ -1,0 +1,23 @@
+<div *ngIf="course">
+  <div class="sample">
+    <div class="container">
+      <div class="inside">
+        <h1>{{course.name}}</h1>
+        <h3>{{course.description}}</h3>
+      </div>
+    </div>
+  </div>
+  <div class="sample1">
+    <div class="card" style="width:400px">
+      <video width="400" height="200" class="video-fluid z-depth-1" autoplay loop controls muted>
+        <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
+      </video>
+      <div class="card-body">
+        <h4 class="card-title">Rs.{{course.price}}</h4>
+        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+        <button type="button" class="btn btn-outline-secondary btn-lg btn-block"  [routerLink]="['/cart']">Add to Cart</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg btn-block">Buy</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,24 @@
+<div class="sample">
+  <div class="container">
+    <h1 class="display-4">Shopping Cart</h1>
+  </div>
+</div>
+
+  <div class="toBorder" *ngFor="let users of user">
+    <hr>
+    <div class="d-flex">
+      <img src='/assets/images/java.jpg'>
+      <h1>{{users}}</h1>
+    </div>
+    <hr>
+  </div>
+
+  <div class="abs">
+      <div class="card" style="width:400px">
+          <div class="card-body">
+            <h2 class="card-title">Total</h2>
+            <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+            <button type="button" class="btn btn-outline-secondary btn-lg btn-block"  [routerLink]="['/cart']">Checkout</button>
+          </div>
+        </div>
+  </div>
